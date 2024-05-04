@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    max-width: 80vw;
+    display: grid;
+    row-gap: 1rem;
+    margin: 0 auto;
+    height: 100vh;
+    grid-template: auto 1fr auto / 1fr;
+  
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    align-items: center;
+  }
+  .navigation2 ul {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation a {
+    display: block;
+    color: #eee;
+    font-size: 25px;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+  }
+  .navigation a:hover {
+    font-weight: 500;
+    font-size: large;
+    text-decoration: underline;
+    font-family: "Open Sans";
+    color: rgb(6, 6, 6);
+    background-color: #eee;
+  }
+  .navigation li {
+    flex: 1 1 100%;
+  }
+  header {
+    background: hsl(207, 70%, 22%);
+    color: white;
+    grid-column: 1 / 2;
+    text-align: center;
+    /* margin: 2rem; */
+    display: flex;
+    flex-direction: column;
+  }
+  header h1, footer p {
+    font-size: xx-large;
+    padding: 1.5em;
+  }
+  h1 span {
+    color: gold;
+    margin: 0;
+    padding: 0;
+    font-family: "Princess Sofia", sans-serif;
+    font-weight: 400;
+  }
+  main {
+    grid-column: 1 / 2;
+    width: 98%;
+    margin: 0 auto;
+  }
+  footer {
+    background: hsl(207, 70%, 22%);
+    color: #eee;
+    text-align: center;
+  
+    grid-column: 1 / 2;
+  }
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .card {
+    flex: 60%;
+    color: #060606;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px black solid;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  section:nth-of-type(2) {
+    padding-bottom: 19rem;
+    line-height: 2.5rem;
+  }
+  .navigation2 {
+    padding-left: 2rem;
+    font-size: larger;
+  }
+  .navigation2 a:link {
+    color: rgb(123, 63, 63);
+  }
+  .navigation2 a:visited {
+    color: rgb(15, 15, 126);
+  }
+  .card > h2 {
+    background-color: hsl(207, 70%, 22%);
+    color: #eee;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .card:nth-of-type(2) {
+    flex: 30%;
+    margin-left: 0.5rem;
+  }
+  .card div {
+    display: flex;
+    padding: 10px;
+  }
+  .card div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  .card div:nth-of-type(2) h2,
+  figcaption {
+    text-align: center;
+  }
+  img[alt="Nigerian flag"] {
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  img[alt="Dominic Abah"] {
+    max-width: 296px;
+    margin-top: 20px;
+  }
+  div p {
+    line-height: 30px;
+    padding: 10px;
+    text-wrap: pretty;
+  }
+  hr {
+    margin: 10px;
+    width: 90%;
+    align-self: center;
+  }
+  #lastModified {
+    font-size: x-large;
+    color: gold;
+    padding: 10px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
