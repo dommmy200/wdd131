@@ -18,17 +18,55 @@
     <link rel="icon" href="favicon.ico">
     <script src="scripts/place.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-    <title>Document</title>
+    <title>Egypt</title>
 </head>
 <body>
     <header>
-
+        <h1>Egypt</h1>
+        <div class="header"></div>
     </header>
     <main>
-
+        <div class="hero-img">
+            <picture class="hero-image hero-large">
+                <source srcset=".//images/giza-large1440x999.webp" media="(min-width: 1250px)">
+                <source srcset=".//images/giza-large2.webp" media="(min-width: 900px)">
+                <source srcset=".//images/giza-large1.webp" media="(min-width: 768px)">  
+                <img src=".//images/giza-large1.webp" alt="The Giza Pyramid1"> 
+            </picture>
+            <picture class="hero-image hero-small">
+                <source srcset=".//images/giza-small1.webp" media="(max-width: 540px)">
+                <source srcset=".//images/giza-small2.webp" media="(max-width: 640px)">
+                <source srcset=".//images/giza-small3.webp" media="(max-width: 767px)"> 
+                <img src=".//images/giza-small3.webp" alt="The Giza Pyramid2"> 
+            </picture>
+        </div>
+        <div class="country">
+            <h2 class="data top">Data</h2>
+            <ul class="info bottom">
+                <li><span>Area: </span>15,000 sq mi</li>
+                <li><span>Population: </span>100 million</li>
+                <li><span>Capital: </span>Cairo</li>
+                <li><span>Language: </span>Arabic</li>
+                <li><span>Currency: </span>INR</li>
+                <li><span>Time Zone: </span>GMT+3</li>
+                <li><span>Calling Code: </span>+20</li>
+                <li><span>Internet TLD: </span>.eg</li>
+            </ul>
+        </div>
+        <div class="bottom-grid">
+            <h2 class="wx top">Weather</h2>
+            <img class="icon-1" src=".//images/cloud_icon.svg" alt="static cloud icon">
+            <ul class="temperature bottom">
+                <li><span>Temperature: </span>449944748 sq ml</li>
+                <li><span>Conditions: </span>449944748 sq ml</li>
+                <li><span>Wind: </span>449944748 sq ml</li>
+                <li><span>Wind Chill: </span>449944748 sq ml</li>
+            </ul>
+        </div>
     </main>
     <footer>
-        
+        <p class="footer"></p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
