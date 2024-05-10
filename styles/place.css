@@ -20,7 +20,7 @@ body {
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 100px auto 100px;
 }
 header {
     grid-row: 1/2;
@@ -28,6 +28,7 @@ header {
     width: 100%;
     color: white;
     text-align: center;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -48,49 +49,61 @@ header h1 {
   width: 100%;
   height: 50px;
   font-size: xx-large;
-  margin: 15px 0;
+  text-align: center;
+  /* margin: 15px 0; */
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 .bottom {
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 main {
   width: 100%;
   grid-row: 2/3;
 }
+.country h2, .bottom-grid h2, .icon-1 {
+  width: 100%;
+  padding-left: 80px;
+}
 li {
   line-height: 30px;
-  /* width: 100px; */
+  width: 200px;
   /* clear: left; */
   /* float: left; */
   text-align: left;
-  padding-left: 30px;
+  /* padding-left: 300px; */
+  /* background-color: chocolate; */
+  background-color: rgba(255, 255, 255, 0);
 }
 .bottom {
   list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
 }
 .bottom-grid {
   background-color: white;
   width: 100%;
 }
-span {
+.bottom span {
   width: 100px;
   clear: left;
   float: left;
   text-align: right;
   padding-right: 5px;
+  /* background-color: aqua; */
 }
 footer {
     grid-row: 3/4;
     background-color:rgb(173, 35, 35);
+    font-size: x-large;
     color: rgb(248, 248, 248);
     text-align: center;
     padding: 10px;
-    height: 75px;
+    height: 80px;
 } 
 /* Hide the image that shouldn't be displayed based on viewport width */
 .hero-large {
@@ -113,7 +126,7 @@ footer {
   body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 100px auto 100px;
   }
   .header{
     grid-row: 1/2;
@@ -121,6 +134,7 @@ footer {
   main {
     grid-row: 2/3;
     width: 100%;
+    text-align: center;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -146,12 +160,13 @@ footer {
     grid-row: 3/4;
   }
   .country {
+    text-align: center;
     grid-column: 1/2;
     grid-row: 1/2;
     position: relative;
     top: 25px;
     left: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     width: 300px;
     height: 350px;
     box-shadow: 12px 12px 19px #5e87c6d8;
@@ -166,23 +181,27 @@ footer {
     padding: 10px;
     font-size: x-large;
   }
-  span {
-    font-weight: 700;
-  }
   .icon-1 {
     display: none;
+  }
+  .country h2, .bottom-grid h2 {
+    width: 100%;
+    padding-left: 10px;
   }
   .info {
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0);
+    padding-right: 270px;
   }
   .temperature {
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0);
+    width: 200px;
+    padding-right: 270px;
   }
   .wx {
     position: absolute;
