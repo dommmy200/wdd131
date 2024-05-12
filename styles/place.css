@@ -71,11 +71,7 @@ main {
 li {
   line-height: 30px;
   width: 200px;
-  /* clear: left; */
-  /* float: left; */
   text-align: left;
-  /* padding-left: 300px; */
-  /* background-color: chocolate; */
   background-color: rgba(255, 255, 255, 0);
 }
 .bottom {
@@ -94,7 +90,6 @@ li {
   float: left;
   text-align: right;
   padding-right: 5px;
-  /* background-color: aqua; */
 }
 footer {
     grid-row: 3/4;
@@ -107,21 +102,21 @@ footer {
 } 
 /* Hide the image that shouldn't be displayed based on viewport width */
 .hero-large {
-  display: none; /* Initially hide the desktop image */
+  display: none; 
 }
 
 .hero-small {
-  display: block; /* Initially show the mobile image */
+  display: block; 
 
 }
 
 /* Media queries for responsive image display */
 @media (min-width: 768px) {
   .hero-large {
-    display: block; /*Show the desktop image on larger screens */
+    display: block; 
   }
   .hero-small {
-    display: none; /* Hide the mobile image on larger screens */
+    display: none; 
   }
   body {
     display: grid;
@@ -176,6 +171,7 @@ footer {
     top: 10px;
     left: -10px;
     background-color: rgb(173, 35, 35);
+    color: var(--bottom-color);
     width: 250px;
     text-align: left;
     padding: 10px;
@@ -208,6 +204,7 @@ footer {
     top: 10px;
     left: -10px;
     background-color: rgb(173, 35, 35);
+    color: var(--bottom-color);
     width: 250px;
     text-align: left;
     padding: 10px;
@@ -222,27 +219,5 @@ footer {
   .bottom li {
     display: flex;
     align-items: center;
-    /* padding-left: 20px; */
   }
-  
-  /* #wind {
-    margin-left: auto;
-    padding-right: 19px; */
-    /* text-align: right; */
-  /* }
-  #condition {
-    margin-left: auto;
-    padding-right: 40px; */
-    /* text-align: right; */
-  /* }
-  #temperature {
-    margin-left: auto;
-    padding-right:40px; */
-    /* text-align: right; */
-  /* }
-  #wind-chill {
-    margin-left: auto;
-    padding-right: 30px; */
-    /* text-align: right; */
-  /* } */ 
 }
