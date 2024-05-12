@@ -219,4 +219,30 @@ footer {
     top: 0;
     left: 150px;
   }
+  .bottom li {
+    display: flex;
+    align-items: center;
+    /* padding-left: 20px; */
+  }
+  
+  /* #wind {
+    margin-left: auto;
+    padding-right: 19px; */
+    /* text-align: right; */
+  /* }
+  #condition {
+    margin-left: auto;
+    padding-right: 40px; */
+    /* text-align: right; */
+  /* }
+  #temperature {
+    margin-left: auto;
+    padding-right:40px; */
+    /* text-align: right; */
+  /* }
+  #wind-chill {
+    margin-left: auto;
+    padding-right: 30px; */
+    /* text-align: right; */
+  /* } */ 
 }
