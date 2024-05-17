@@ -126,7 +126,7 @@ img {
 .image-container span {
     color: rgb(59, 48, 34);
 }
-nav {
+.navigation {
     background-color: rgb(47, 21, 96);
 }
 main {
@@ -147,7 +147,7 @@ footer {
 #lastModified {
     font-size: large;
 }
-@media only screen and (min-width: 551px){
+@media only screen and (min-width: 631px){
     /* main h1 {
         font-size: xx-large;
         font-family: Montserrat, sans-serif, serif;
@@ -170,7 +170,8 @@ footer {
         height: 100%;
         text-align: center;
         padding-top: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
+        /* margin: 0; */
 	}
 	#menu {
 		display: none;
