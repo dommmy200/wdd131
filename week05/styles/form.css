@@ -123,3 +123,14 @@ footer, header, form {
 	width: 100%;
 	max-width: 400px;
 }
+main.reviewed {
+	width: 400px;
+	height: 300px;
+	color: #eee;
+	background-color: #4d4040;
+	border: 2px solid #999;
+	border-radius: 6px;
+	text-align: center;
+	padding: 4.5em;
+	margin-top: 10rem;
+}
