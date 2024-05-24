@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <title>Form</title>
+</head>
+<body>
+    <header> 
+        <p>
+            Product Review
+        </p>
+    </header>
+    <form method="get" action="review.html" class="wf1">
+        <fieldset>
+            <legend> Product Name</legend>
+            <label >
+                <select name="product" id="product" required>
+                    <option value="#">Select a Product</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset class="stars">
+            <legend>Rating</legend>
+            <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+            <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+            <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+            <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+            <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Date of Installation</legend>
+            <label ><input type="date" id="installed-date" required></label>
+        </fieldset>
+        <fieldset class="feature">
+            <legend>What feature did you fine useful in the product?</legend>
+            <p>(check all that apply)</p>
+            <label ><input type="checkbox" id="feat1" name="feature" value="durability" >Durability</label>
+            <label ><input type="checkbox" id="feat2" name="feature" value="performance" >Performance</label>
+            <label ><input type="checkbox" id="feat3" name="feature" value="ease of use" >Ease of Use</label>
+            <label ><input type="checkbox" id="feat4" name="feature" value="design" >Design</label>
+        </fieldset>
+        <fieldset>
+            <legend>Written Review<span>(optional)</span></legend>
+            <label for="review"></label>
+            <input type="textarea" id="review" name="textarea">
+        </fieldset>
+        <fieldset>
+            <legend>Your Name <span>(optional)</span></legend>
+            <label >First Name<input type="text" name="fname" id="fname"></label>
+            <label >Last Name<input type="text" name="lname" id="lname"></label>
+        </fieldset>
+        <div class="stars"></div>
+        <button id="button" type="submit" value="product_review">Post Review</button>
+    </form>
+    <footer>
+        <p class="footer"></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
