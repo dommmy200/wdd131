@@ -50,6 +50,9 @@ input[type="radio"] {
 * {
 	box-sizing: border-box;
 }
+h1 {
+	font-size: large;
+}
 body {
 	height: auto;
 	display: flex;
