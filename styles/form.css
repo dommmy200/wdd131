@@ -110,6 +110,9 @@ input[type="text"], button[type="submit"], #product, [type="date"]{
 	width: 100%;
 	max-width: 400px;
 }
+#product, [type="date"] {
+	border-left: 6px solid var(--button-background-color);
+}
 [type="text"] {
 	margin-top: 7px;
 }
