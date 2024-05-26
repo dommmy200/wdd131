@@ -10,7 +10,7 @@ const records = [
             {
                 title: "Forest Shoots",
                 image: "../images/hero-image2x.webp",
-                description: "Deep in the Agbenu forest",
+                description: "Deep in the Agbenu forest"
             },
             {
                 title: "Buddha Temple",
@@ -19,17 +19,17 @@ const records = [
             },
             {
                 title: "Camera Logo",
-                image: "/project/images/camera-logo2.webp",
+                image: "../images/camera-logo2.webp",
                 description: "Camera Logo, Istock Photos"
             },
             {
                 title: "Tossed Camera",
-                image: "/project/images/camera-toss.webp",
+                image: "../images/camera-toss.webp",
                 description: "Anonymously tossed camera"
             },
             {
                 title: "Citrus Fruits",
-                image: "/project/images/citrus-fruit-in-wooden.webp",
+                image: "../images/citrus-fruit-in-wooden.webp",
                 description: "Citrus fruits in wooden plate"
             }
         ]
