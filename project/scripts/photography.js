@@ -9,12 +9,12 @@ const records = [
         gallery: [
             {
                 title: "Forest Shoots",
-                image: "..//images/hero-image2x.webp",
+                image: "../images/hero-image2x.webp",
                 description: "Deep in the Agbenu forest"
             },
             {
                 title: "Buddha Temple",
-                image: "/project/images/buddha-temple-bangkok-thailand.webp",
+                image: "../images/buddha-temple-bangkok-thailand.webp",
                 description: "Buddha Temple Bangkok Thailand"
             },
             {
