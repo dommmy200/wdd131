@@ -309,15 +309,16 @@ function viewMemberGallery() {
             document.querySelector("#populate-image").innerHTML = "";
             if (event.type === "click"){
                 const studentId = anchor.id;
+                const name = anchor.textContent;
                 displayGallery(studentId);
+                memberName(name);
             }
         })
     })
 }
 viewMemberGallery();
-function memberName(memList) {
+function memberName(text) {
     const memberNm = document.querySelector(".member-name");
-    memList.forEach(member => {
-        const name = `${member.fname} ${member.lname}`;
-    });
+    const owner = `${text}'s Photos.`;
+    memberNm.textContent = owner;
 }
