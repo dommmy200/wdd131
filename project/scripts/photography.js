@@ -9,7 +9,7 @@ const records = [
         gallery: [
             {
                 title: "Forest Shoots",
-                image: "/project/images/hero-image2x.webp",
+                image: "..//images/hero-image2x.webp",
                 description: "Deep in the Agbenu forest"
             },
             {
