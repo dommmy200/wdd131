@@ -10,7 +10,7 @@ const records = [
             {
                 title: "Forest Shoots",
                 image: "../images/hero-image2x.webp",
-                description: "Deep in the Agbenu forest"
+                description: "Deep in the Agbenu forest",
             },
             {
                 title: "Buddha Temple",
