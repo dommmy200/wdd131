@@ -162,6 +162,17 @@ img[alt="Club Logo"] {
     flex-direction: column;
     color: #ffffff;
 }
+.fixed-left h1, .fixed-left h3 {
+    margin: 10px;
+}
+.fixed-left h3 {
+    color: brown;
+}
+.fixed-left h3::before {
+    content: "⇓ ";
+    color: gold;
+
+}
 #personal-gallery {
     text-align: left;
     padding: 25px;
