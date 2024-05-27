@@ -9,17 +9,17 @@ const records = [
         gallery: [
             {
                 title: "Forest Shoots",
-                image: "https://github.com/dommmy200/wdd131x/blob/efb151eeb1caa0cdd66d56fb8b0182776ae9926b/project/images/hero-image2.webp",
+                image: "/project/images/hero-camera-test.webp",
                 description: "Deep in the Agbenu forest"
             },
             {
                 title: "Buddha Temple",
-                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/buddha-temple-bangkok-thailand.webp",
+                image: "/project/images/buddha-temple-bangkok-thailand.webp",
                 description: "Buddha Temple Bangkok Thailand"
             },
             {
                 title: "Camera Logo",
-                image: "https://github.com/dommmy200/wdd131x/blob/efb151eeb1caa0cdd66d56fb8b0182776ae9926b/project/images/camera-logo2.webp",
+                image: "/project/images/camera-logo2.webp",
                 description: "Camera Logo, Istock Photos"
             },
             {
