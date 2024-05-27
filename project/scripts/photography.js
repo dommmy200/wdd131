@@ -31,7 +31,7 @@ const records = [
                 title: "Citrus Fruits",
                 image: "../images/citrus-fruit-in-wooden.webp",
                 description: "Citrus fruits in wooden plate"
-            }
+            },
         ]
     },
     {
@@ -61,7 +61,7 @@ const records = [
                 title: "Aphelocoma Coerulescens",
                 image: "/project/images/florida-scrub-jay-aphelocoma-coerulescens.webp",
                 description: "Florida scrub jay aphelocoma coerulescens"
-            }
+            },
         ]
     },
     {
@@ -101,7 +101,7 @@ const records = [
                 title: "Mountain Lake Alps",
                 image: "/project/images/mountain-lake-alps.webp",
                 description: "Mountain lake alps"
-            }
+            },
         ]
     },
     {
