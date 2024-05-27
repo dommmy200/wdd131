@@ -261,13 +261,8 @@ const records = [
     }
 ];
 const section = document.querySelector("#populate-image");
-async function fetchData() {
-    const response = await fetch(records);
-    return response;
-}
 
 async function displayGallery(identity) {
-    const data = await fetchData();
     document.querySelector("#populate-image").innerHTML = "";
     data.forEach(member => {
         if (identity === member.memberId) {
