@@ -14,7 +14,7 @@ const records = [
             },
             {
                 title: "Buddha Temple",
-                image: "/project/images/buddha-temple-bangkok-thailand.webp",
+                image: "https://raw.githubusercontent.com/dommmy200/wdd131/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/buddha-temple-bangkok-thailand.webp",
                 description: "Buddha Temple Bangkok Thailand"
             },
             {
