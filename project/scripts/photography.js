@@ -9,27 +9,27 @@ const records = [
         gallery: [
             {
                 title: "Forest Shoots",
-                image: "../images/hero-image2x.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/efb151eeb1caa0cdd66d56fb8b0182776ae9926b/project/images/hero-image2.webp",
                 description: "Deep in the Agbenu forest"
             },
             {
                 title: "Buddha Temple",
-                image: "../images/buddha-temple-bangkok-thailand.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/buddha-temple-bangkok-thailand.webp",
                 description: "Buddha Temple Bangkok Thailand"
             },
             {
                 title: "Camera Logo",
-                image: "../camera-logo2.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/efb151eeb1caa0cdd66d56fb8b0182776ae9926b/project/images/camera-logo2.webp",
                 description: "Camera Logo, Istock Photos"
             },
             {
                 title: "Tossed Camera",
-                image: "../camera-toss.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/camera-toss.webp",
                 description: "Anonymously tossed camera"
             },
             {
                 title: "Citrus Fruits",
-                image: "https://raw.githubusercontent.com/dommmy200/wdd131/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/common-kingfisher.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/citrus-fruit-in-wooden.webp",
                 description: "Citrus fruits in wooden plate"
             },
         ]
