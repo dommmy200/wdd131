@@ -261,9 +261,15 @@ const records = [
     }
 ];
 const section = document.querySelector("#populate-image");
-function displayGallery(identity) {
+async function fetchData() {
+    const response = await fetch(records);
+    return response;
+}
+
+async function displayGallery(identity) {
+    const data = await fetchData();
     document.querySelector("#populate-image").innerHTML = "";
-    records.forEach(member => {
+    data.forEach(member => {
         if (identity === member.memberId) {
             const photos = member.gallery;
             photos.forEach(photo => {
