@@ -19,17 +19,17 @@ const records = [
             },
             {
                 title: "Camera Logo",
-                image: "../images/camera-logo2.webp",
+                image: "../camera-logo2.webp",
                 description: "Camera Logo, Istock Photos"
             },
             {
                 title: "Tossed Camera",
-                image: "../images/camera-toss.webp",
+                image: "../camera-toss.webp",
                 description: "Anonymously tossed camera"
             },
             {
                 title: "Citrus Fruits",
-                image: "../images/citrus-fruit-in-wooden.webp",
+                image: "../citrus-fruit-in-wooden.webp",
                 description: "Citrus fruits in wooden plate"
             },
         ]
