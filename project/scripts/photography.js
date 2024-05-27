@@ -24,12 +24,12 @@ const records = [
             },
             {
                 title: "Tossed Camera",
-                image: "project/images/camera-toss.webp",
+                image: "/project/images/camera-toss.webp",
                 description: "Anonymously tossed camera"
             },
             {
                 title: "Citrus Fruits",
-                image: "project/images/citrus-fruit-in-wooden.webp",
+                image: "/project/images/citrus-fruit-in-wooden.webp",
                 description: "Citrus fruits in wooden plate"
             },
         ]
