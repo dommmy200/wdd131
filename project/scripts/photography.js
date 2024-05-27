@@ -24,12 +24,12 @@ const records = [
             },
             {
                 title: "Tossed Camera",
-                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/camera-toss.webp",
+                image: "project/images/camera-toss.webp",
                 description: "Anonymously tossed camera"
             },
             {
                 title: "Citrus Fruits",
-                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/citrus-fruit-in-wooden.webp",
+                image: "project/images/citrus-fruit-in-wooden.webp",
                 description: "Citrus fruits in wooden plate"
             },
         ]
