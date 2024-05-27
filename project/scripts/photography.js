@@ -29,7 +29,7 @@ const records = [
             },
             {
                 title: "Citrus Fruits",
-                image: "/project/images/citrus-fruit-in-wooden.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/common-kingfisher.webp",
                 description: "Citrus fruits in wooden plate"
             },
         ]
@@ -79,22 +79,22 @@ const records = [
             },
             {
                 title: "Strix Nebulosato",
-                image: "/project/images/great-gray-owl-strix-nebulosato.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/great-gray-owl-strix-nebulosato.webp",
                 description: "Great gray owl strix-nebulosato"
             },
             {
                 title: "Great Grey-horned",
-                image: "/project/images/great-grey-horned.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/great-grey-horned.webp",
                 description: "Great Grey-horned"
             },
             {
                 title: "Landscape Photography",
-                image: "/project/images/landscape-photography.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/landscape-photography.webp",
                 description: "Landscape Photography"
             },
             {
                 title: "Left Hand Grab",
-                image: "/project/images/left-grab.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/left-grab.webp",
                 description: "Left Hand Grab photograph"
             },
             {
@@ -114,12 +114,12 @@ const records = [
         gallery: [
             {
                 title: "Phra Kaew",
-                image: "/project/images/phra-kaew-in-bangkok.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/phra-kaew-in-bangkok.webp",
                 description: "Phrac kaew in bangkok"
             },
             {
                 title: "Pont Alexandre iii",
-                image: "/project/images/pont-alexandre-iii.webp",
+                image: "https://github.com/dommmy200/wdd131x/blob/6a1a5a2bd804be7d3d31df059934d20214b38adb/project/images/pont-alexandre-iii.webp",
                 description: "Pont Alexandre iii"
             }
         ]
