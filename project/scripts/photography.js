@@ -139,7 +139,7 @@ const records = [
             },
             {
                 title: "Rexburg Idaho Temple",
-                image: "/project/images/rexburg-idaho-temple-at-sunset.webp",
+                image: "https://raw.githubusercontent.com/dommmy200/wdd131/main/project/images/rexburg-idaho-temple-at-sunset.webp",
                 description: "Rexburg idaho temple at sunset"
             },
             {
