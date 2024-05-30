@@ -45,22 +45,22 @@
             "gallery": [
                 {
                     "title": "Common Kingfisher",
-                    "image": "/project/images/common-kingfisher.webp",
+                    "image": "../images/common-kingfisher.webp",
                     "description": "Common Kingfisher"
                 },
                 {
                     "title": "Couple on Vacation",
-                    "image": "/project/images/couple-for-vacation.webp",
+                    "image": "../images/couple-for-vacation.webp",
                     "description": "Couple for a vacation"
                 },
                 {
                     "title": "Rainbow Fruits",
-                    "image": "/project/images/delicious-rainbow-fruits.webp",
+                    "image": "../images/delicious-rainbow-fruits.webp",
                     "description": "Delicious rainbow fruits"
                 },
                 {
                     "title": "Aphelocoma Coerulescens",
-                    "image": "/project/images/florida-scrub-jay-aphelocoma-coerulescens.webp",
+                    "image": "../images/florida-scrub-jay-aphelocoma-coerulescens.webp",
                     "description": "Florida scrub jay aphelocoma coerulescens"
                 }
             ]
