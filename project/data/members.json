@@ -10,7 +10,7 @@
             "gallery": [
                 {
                     "title": "Forest Shoots",
-                    "image": "./wdd131/project/images/hero-camera-test.webp",
+                    "image": "..//hero-camera-test.webp",
                     "description": "Deep in the Agbenu forest"
                 },
                 {
