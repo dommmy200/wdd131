@@ -261,7 +261,7 @@
 //     }
 // ];
 
-const membersFiles = "/project/data/members.json";
+const membersFiles = "/wdd131/project/data/members.json";
 async function getMembersFile() {
     const response = await fetch(membersFiles);
     const data = await response.json();
