@@ -10,22 +10,22 @@
             "gallery": [
                 {
                     "title": "Forest Shoots",
-                    "image": "..//hero-camera-test.webp",
+                    "image": "../images/hero-camera-test.webp",
                     "description": "Deep in the Agbenu forest"
                 },
                 {
                     "title": "Buddha Temple",
-                    "image": "../wdd131/project/images/buddha-temple-bangkok-thailand.webp",
+                    "image": "/wdd131/project/images/buddha-temple-bangkok-thailand.webp",
                     "description": "Buddha Temple Bangkok Thailand"
                 },
                 {
                     "title": "Camera Logo",
-                    "image": "/project/images/camera-logo2.webp",
+                    "image": "../project/images/camera-logo2.webp",
                     "description": "Camera Logo, Istock Photos"
                 },
                 {
                     "title": "Tossed Camera",
-                    "image": "/project/images/camera-toss.webp",
+                    "image": "../camera-toss.webp",
                     "description": "Anonymously tossed camera"
                 },
                 {
