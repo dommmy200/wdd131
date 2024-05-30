@@ -75,32 +75,32 @@
             "gallery": [
                 {
                     "title": "Fruits and Veggies",
-                    "image": "/project/images/fruits-and-veggies.webp",
+                    "image": "../images/fruits-and-veggies.webp",
                     "description": "Fruits and Veggies"
                 },
                 {
                     "title": "Strix Nebulosato",
-                    "image": "/project/images/great-gray-owl-strix-nebulosato.webp",
+                    "image": "../images/great-gray-owl-strix-nebulosato.webp",
                     "description": "Great gray owl strix-nebulosato"
                 },
                 {
                     "title": "Great Grey-horned",
-                    "image": "/project/images/great-grey-horned.webp",
+                    "image": "../images/great-grey-horned.webp",
                     "description": "Great Grey-horned"
                 },
                 {
                     "title": "Landscape Photography",
-                    "image": "/project/images/landscape-photography.webp",
+                    "image": "../images/landscape-photography.webp",
                     "description": "Landscape Photography"
                 },
                 {
                     "title": "Left Hand Grab",
-                    "image": "/project/images/left-grab.webp",
+                    "image": "../images/left-grab.webp",
                     "description": "Left Hand Grab photograph"
                 },
                 {
                     "title": "Mountain Lake Alps",
-                    "image": "/project/images/mountain-lake-alps.webp",
+                    "image": "../images/mountain-lake-alps.webp",
                     "description": "Mountain lake alps"
                 }
             ]
@@ -115,12 +115,12 @@
             "gallery": [
                 {
                     "title": "Phra Kaew",
-                    "image": "/project/images/phra-kaew-in-bangkok.webp",
+                    "image": "../images/phra-kaew-in-bangkok.webp",
                     "description": "Phrac kaew in bangkok"
                 },
                 {
                     "title": "Pont Alexandre iii",
-                    "image": "/project/images/pont-alexandre-iii.webp",
+                    "image": "../images/pont-alexandre-iii.webp",
                     "description": "Pont Alexandre iii"
                 }
             ]
@@ -135,27 +135,27 @@
             "gallery": [
                 {
                     "title": "Black Cockatoo",
-                    "image": "/project/images/red-tailed-black-cockatoo.webp",
+                    "image": "../images/red-tailed-black-cockatoo.webp",
                     "description": "Red-tailed black cockatoo"
                 },
                 {
                     "title": "Rexburg Idaho Temple",
-                    "image": "/project/images/rexburg-idaho-temple-at-sunset.webp",
+                    "image": "../images/rexburg-idaho-temple-at-sunset.webp",
                     "description": "Rexburg idaho temple at sunset"
                 },
                 {
                     "title": "She Snap",
-                    "image": "/project/images/she-snap.webp",
+                    "image": "../images/she-snap.webp",
                     "description": "She snapped in the thicketh"
                 },
                 {
                     "title": "Toco Toucan Bird",
-                    "image": "/project/images/toco-toucan-bird.webp",
+                    "image": "../images/toco-toucan-bird.webp",
                     "description": "Toco toucan bird"
                 },
                 {
                     "title": "Tower of Kiev",
-                    "image": "/project/images/tower-of-kiev-railway.webp",
+                    "image": "../images/tower-of-kiev-railway.webp",
                     "description": "Tower of kiev railway station"
                 }
             ]
@@ -170,12 +170,12 @@
             "gallery": [
                 {
                     "title": "Vintage Camera",
-                    "image": "/project/images/vintage-camera.webp",
+                    "image": "../images/vintage-camera.webp",
                     "description": "Vintage camera"
                 },
                 {
                     "title": "green camera",
-                    "image": "/project/images/logo-new-2.webp",
+                    "image": "../images/logo-new-2.webp",
                     "description": "Deep in the agbenu forest"
                 }
             ]
@@ -190,12 +190,12 @@
             "gallery": [
                 {
                     "title": "forest shoots",
-                    "image": "/project/images/hero-camera-test.webp",
+                    "image": "../images/hero-camera-test.webp",
                     "description": "Deep in the agbenu forest"
                 },
                 {
                     "title": "green camera",
-                    "image": "/project/images/logo-new-2.webp",
+                    "image": "../images/logo-new-2.webp",
                     "description": "Deep in the agbenu forest"
                 }
             ]
@@ -210,12 +210,12 @@
             "gallery": [
                 {
                     "title": "forest shoots",
-                    "image": "/project/images/hero-camera-test.webp",
+                    "image": "../images/hero-camera-test.webp",
                     "description": "Deep in the agbenu forest"
                 },
                 {
                     "title": "green camera",
-                    "image": "/project/images/logo-new-2.webp",
+                    "image": "../images/logo-new-2.webp",
                     "description": "Deep in the agbenu forest"
                 }
             ]
@@ -230,12 +230,12 @@
             "gallery": [
                 {
                     "title": "forest shoots",
-                    "image": "/project/images/hero-camera-test.webp",
+                    "image": "../images/hero-camera-test.webp",
                     "description": "Deep in the agbenu forest"
                 },
                 {
                     "title": "green camera",
-                    "image": "/project/images/logo-new-2.webp",
+                    "image": "../images/logo-new-2.webp",
                     "description": "Deep in the agbenu forest"
                 }
             ]
@@ -250,12 +250,12 @@
             "gallery": [
                 {
                     "title": "forest shoots",
-                    "image": "/project/images/hero-camera-test.webp",
+                    "image": "../images/hero-camera-test.webp",
                     "description": "Deep in the agbenu forest"
                 },
                 {
                     "title": "green camera",
-                    "image": "/project/images/logo-new-2.webp",
+                    "image": "../images/logo-new-2.webp",
                     "description": "The camera to preserve nature"
                 }
             ]
