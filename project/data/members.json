@@ -10,12 +10,12 @@
             "gallery": [
                 {
                     "title": "Forest Shoots",
-                    "image": "/wdd131/project/images/hero-camera-test.webp",
+                    "image": "./wdd131/project/images/hero-camera-test.webp",
                     "description": "Deep in the Agbenu forest"
                 },
                 {
                     "title": "Buddha Temple",
-                    "image": "/wdd131/project/images/buddha-temple-bangkok-thailand.webp",
+                    "image": "../wdd131/project/images/buddha-temple-bangkok-thailand.webp",
                     "description": "Buddha Temple Bangkok Thailand"
                 },
                 {
