@@ -326,5 +326,24 @@ const footDiv = () => {
     anchorage.setAttribute("href", "../homepage-links/social-media.html");
     division.append(anchorage);
 }
+    const learningSections = function (){
+        const navLinks = document.querySelectorAll("#nav-links a");
+        navLinks.forEach(link => {
+            link.addEventListener("click", (event) => {
+                event.preventDefault();
+                const ident = `${link.id}`;
+                console.log(ident);
+                const targetedId = link.dataset.erection;
+                const elementId = document.querySelector(targetedId);
+                if (elementId) {
+                elementId.scrollIntoView({ behavior: "smooth" });
+                } else {
+                console.error("Section not found:", elementId);
+                }
+            });
+        })
+        
+    }
+learningSections();
 footDiv();
 getMembersFile();
