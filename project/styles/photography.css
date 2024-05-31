@@ -268,7 +268,6 @@ form {
 fieldset {
 	margin: 2rem 0;
 	border: none;
-	/* border-radius: 6px; */
 	padding: .5rem 2%;
 }
 .ws1 legend {
@@ -444,4 +443,67 @@ section h2 {
 #events section:first-of-type h1, #events section:last-of-type h1, #events section:nth-of-type(2) h1,
 #events section:nth-of-type(3) h1, #events section:nth-of-type(4) h1 {
     text-align: center;
+}
+/* --------Membership Styling-------- */
+#memberships {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 300px 300px auto;
+    grid-template-rows: auto;
+    padding: 5px;
+}
+#club-members {
+    grid-column: 1/2;
+    
+}
+#participation {
+    grid-column: 2/3;
+    
+}
+#rules-regulations {
+    grid-column: 3/4;
+}
+#club-members, #participation, #rules-regulations {
+    grid-row: auto;
+    border-radius: 6px;
+    background-color: #a75a5a;
+    padding: 7px;
+}
+#club-members h1, #participation h1, #rules-regulations h1 {
+    text-align: center;
+}
+.link-target a {
+    text-align: left;
+    color: #090808;
+    text-decoration: none;
+}
+.link-target a:hover {
+    color: red;
+}
+.link-target li {
+    list-style: none;
+}
+#rules-regulations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 74vh;
+}
+#links-div {
+    flex: 0 0 auto;
+    overflow: hidden;
+    border: 2px solid#090808 ;
+    background-color: var(--transparent-bg-color-5);
+    padding: 7px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#targets-div {
+    flex: 1 1 auto;
+    height: 56vh;
+    overflow-y: scroll;
+    border: 2px solid#090808 ;
+    background-color: var(--transparent-bg-color-5);
+    padding: 10px;
 }

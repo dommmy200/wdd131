@@ -326,24 +326,43 @@ const footDiv = () => {
     anchorage.setAttribute("href", "../homepage-links/social-media.html");
     division.append(anchorage);
 }
-    const learningSections = function (){
-        const navLinks = document.querySelectorAll("#nav-links a");
-        navLinks.forEach(link => {
-            link.addEventListener("click", (event) => {
-                event.preventDefault();
-                const ident = `${link.id}`;
-                console.log(ident);
-                const targetedId = link.dataset.erection;
-                const elementId = document.querySelector(targetedId);
-                if (elementId) {
+const learningSections = function (){
+    const navLinks = document.querySelectorAll("#nav-links a");
+    navLinks.forEach(link => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const ident = `${link.id}`;
+            console.log(ident);
+            const targetedId = link.dataset.erection;
+            const elementId = document.querySelector(targetedId);
+            if (elementId) {
+            elementId.scrollIntoView({ behavior: "smooth" });
+            } else {
+            console.error("Section not found:", elementId);
+            }
+        });
+    })
+}
+const rulesAndRegulations = function (){
+    const navAnchor = document.querySelectorAll("#links-div a");
+    navAnchor.forEach(anchor => {
+        anchor.addEventListener("click", (event) => {
+            event.preventDefault();
+            const ident = `${anchor.id}`;
+            console.log(ident);
+            const targetIdentity = anchor.dataset.watch;
+            console.log(targetIdentity);
+            const elementId = document.querySelector(targetIdentity);
+            if (elementId) {
                 elementId.scrollIntoView({ behavior: "smooth" });
-                } else {
+            } else {
                 console.error("Section not found:", elementId);
-                }
-            });
+            }
         })
-        
-    }
+    })
+}
+
 learningSections();
+rulesAndRegulations();
 footDiv();
 getMembersFile();
