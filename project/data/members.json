@@ -174,9 +174,14 @@
                     "description": "Vintage camera"
                 },
                 {
-                    "title": "green camera",
-                    "image": "../images/logo-new-2.webp",
-                    "description": "Deep in the agbenu forest"
+                    "title": "Camera Lens 2",
+                    "image": "../images/camera-lens-2.webp",
+                    "description": "Camera lens"
+                },
+                {
+                    "title": "Another Testament of Jesus Christ",
+                    "image": "../images/book-of-mormon.webp",
+                    "description": "The Book of Mormon set on Orange Background"
                 }
             ]
         },
@@ -189,9 +194,9 @@
             "phone": 2348093345643,
             "gallery": [
                 {
-                    "title": "forest shoots",
-                    "image": "../images/hero-camera-test.webp",
-                    "description": "Deep in the agbenu forest"
+                    "title": "Close Up Camera",
+                    "image": "../images/close-up-digital-camera.webp",
+                    "description": "Close up digital camera"
                 },
                 {
                     "title": "green camera",
@@ -209,14 +214,14 @@
             "phone": 2348188893643,
             "gallery": [
                 {
-                    "title": "forest shoots",
-                    "image": "../images/hero-camera-test.webp",
-                    "description": "Deep in the agbenu forest"
+                    "title": "The Cacti Bush",
+                    "image": "../images/ephedra-viridis-coville.webp",
+                    "description": "Ephedra Viridis Coville"
                 },
                 {
-                    "title": "green camera",
-                    "image": "../images/logo-new-2.webp",
-                    "description": "Deep in the agbenu forest"
+                    "title": "The latter-day saints",
+                    "image": "../images/lds-family.webp",
+                    "description": "A typical lds family"
                 }
             ]
         },
@@ -234,9 +239,9 @@
                     "description": "Deep in the agbenu forest"
                 },
                 {
-                    "title": "green camera",
-                    "image": "../images/logo-new-2.webp",
-                    "description": "Deep in the agbenu forest"
+                    "title": "Vintage Car 1",
+                    "image": "../images/vintage-car1.webp",
+                    "description": "A first photo of a vintage car"
                 }
             ]
         },
@@ -249,14 +254,14 @@
             "phone": 234813345643,
             "gallery": [
                 {
-                    "title": "forest shoots",
-                    "image": "../images/hero-camera-test.webp",
-                    "description": "Deep in the agbenu forest"
+                    "title": "Vintage Car 2",
+                    "image": "../images/vintage-car2.webp",
+                    "description": "A second photo of a vintage car"
                 },
                 {
-                    "title": "green camera",
-                    "image": "../images/logo-new-2.webp",
-                    "description": "The camera to preserve nature"
+                    "title": "Vintage Car 3",
+                    "image": "../images/vintage-car3.webp",
+                    "description": "The third photo of a vintage car"
                 }
             ]
         }

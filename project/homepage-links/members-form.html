@@ -3,13 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/photography.css">
+    <script src="../scripts/photography.js" defer></script>
     <title>Membership Form</title>
 </head>
 <body>
-    <header>
+    <header class="photograph-head">
+        <img src="../images/camera-logo2.webp" alt="heading logo">
         <nav>
             <a href="../photography.html">Home</a>
+            <a href="../homepage-links/membership.html">⬅︎ Back</a>
         </nav>
     </header>
+    <main class="form-body">
+        <form method="get" action="acknowledgement.html" class="wf1">
+            <fieldset>
+                <legend>Your Name</legend>
+                <label>First Name: <input type="text" name="fname" id="fname" required></label>
+                <label>Middle Name: <input type="text" name="mname" id="fname"></label>
+                <label>Last Name: <input type="text" name="lname" id="fname" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Contact</legend>
+                <label>Email: <input type="email" name="email" id="email" required></label>
+                <label>Phone: <input type="tel" name="phone" id="phone"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your School</legend>
+                <label><input type="text" name="school" id="school" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Age/Sex</legend>
+                <label>Age: <input type="date" name="age" id="age" required></label>
+                <label>Sex: <input type="text" name="sex" id="sex"></label>
+            </fieldset>
+            <fieldset class="feature">
+                <legend>How did you know about us?</legend>
+                <p>(check all that apply)</p>
+                <label ><input type="checkbox" id="feat1" name="feature" value="durability" >Peer</label>
+                <label ><input type="checkbox" id="feat2" name="feature" value="performance" >Social Media</label>
+                <label ><input type="checkbox" id="feat3" name="feature" value="ease of use" >Website</label>
+                <label ><input type="checkbox" id="feat4" name="feature" value="design" >Adverts</label>
+            </fieldset>
+            <fieldset>
+                <legend>Interest/Hobby*</legend>
+                <label for="review"></label>
+                <textarea name="textarea" id="review" rows="4" cols="38" required></textarea>
+            </fieldset>
+            <div class="stars"></div>
+            <button id="button" type="submit" value="product_review">Membership Request</button>
+        </form>
+    </main>
+    <footer class="photograph-foot">
+        <div class="copyright">&COPY;2024</div>
+        <div class="socials"></div>
+    </footer>
 </body>
 </html>

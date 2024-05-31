@@ -101,7 +101,7 @@ form p, form span {
 form p {
 	margin: -7px 0 10px 0;
 }
-input[type="text"], button[type="submit"], #product, [type="date"]{
+input[type="text"], button[type="submit"], [type="date"]{
 	background-color: var(--headline-color-on-color);
 	display: block;
 	border: 1px solid #999;

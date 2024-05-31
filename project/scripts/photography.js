@@ -269,34 +269,6 @@ async function getMembersFile() {
     displayMembersWork(data.members);
 }
 const section = document.querySelector("#populate-image");
-
-// function displayGallery(identity) {
-//     document.querySelector("#populate-image").innerHTML = "";
-//     members.forEach(member => {
-//         if (identity === member.memberId) {
-//             const photos = member.gallery;
-//             photos.forEach(photo => {
-//                 const p = document.createElement("p");
-//                 const h3 = document.createElement("h3");
-//                 const image = document.createElement("img");
-//                 const div = document.createElement("div");
-
-//                 h3.textContent = `${photo.title}`;
-//                 p.textContent = `${photo.description}`;
-//                 image.setAttribute("src", `${photo.image}`);
-//                 image.setAttribute("alt", `${photo.description}`);
-//                 image.setAttribute("loading", "lazy");
-//                 image.setAttribute("width", "250px");
-//                 image.setAttribute("class", "focused");
-//                 image.setAttribute("height", "250px");
-//                 div.appendChild(h3);
-//                 div.appendChild(p);
-//                 div.appendChild(image);
-//                 section.appendChild(div);
-//             });
-//         }
-//     });
-// }
 const displayMembersWork = (data) => {
     document.querySelector("#populate-image").innerHTML = "";
     const memberArray = document.querySelectorAll("div a");
@@ -346,25 +318,13 @@ const selectMember = (memberList) => {
         personal.appendChild(anchor);
     });
 }
-// selectMember(records);
-// function viewMemberGallery() {
-//     const memberArray = document.querySelectorAll("div a");
-//     memberArray.forEach(anchor => {
-//         anchor.addEventListener("click", (event) => {
-//             document.querySelector("#populate-image").innerHTML = "";
-//             if (event.type === "click") {
-//                 const studentId = anchor.id;
-//                 const name = anchor.textContent;
-//                 displayGallery(studentId);
-//                 memberName(name);
-//             }
-//         })
-//     })
-// }
-// viewMemberGallery();
-// function memberName(text) {
-//     const memberNm = document.querySelector(".member-name");
-//     const owner = `${text}'s Photos.`;
-//     memberNm.textContent = owner;
-// }
+const footDiv = () => {
+    const division = document.querySelector(".socials");
+    const anchorage = document.createElement("a");
+    anchorage.textContent = "➤Media";
+    anchorage.classList.add("anchorage");
+    anchorage.setAttribute("href", "../homepage-links/social-media.html");
+    division.append(anchorage);
+}
+footDiv();
 getMembersFile();

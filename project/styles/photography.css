@@ -3,8 +3,9 @@
     /* Color Palette */
     --primary-color: #ffffff;
     --secondary-color: #c2c2c3;
-    --accent1-color: rgb(121, 121, 124);
+    --accent1-color: #79797c;
     --accent2-color: #27272b;
+    --other-color: #ff0000;
  
    /* change the values below to your chosen font(s) */
    --heading-font: "Bad Script", Arial, sans-serif;
@@ -16,13 +17,15 @@
    --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
    --paragraph-color-on-white: #c2c2c3; /* paragraph text on a white background */ 
    --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
-   --transparent-bg-color-1: rgba(121, 121, 124, .1);
-   --transparent-bg-color-2: rgba(121, 121, 124, .2);
-   --transparent-bg-color-3: rgba(121, 121, 124, .3);
-   --transparent-bg-color-4: rgba(121, 121, 124, .4);
-   --transparent-bg-color-5: rgba(121, 121, 124, .5);
-   --transparent-bg-color-6: rgba(121, 121, 124, .6);
+   --transparent-bg-color-1: #79797c1a;
+   --transparent-bg-color-2: #79797c33;
+   --transparent-bg-color-3: #79797c4d;
+   --transparent-bg-color-4: #79797c66;
+   --transparent-bg-color-5: #79797c80;
+   --transparent-bg-color-6: #79797c99;
    --paragraph-background-color: #79797c;
+   --header-background-color: #27272b;
+   --red-on-black: #ff0000;
    --nav-link-color: #c2c2c3;
    --nav-background-color: #79797c;
    --nav-hover-link-color: #ffffff;
@@ -62,13 +65,79 @@
     grid-template-columns: minmax(50px, 10%) minmax(400px, 70%);
     justify-content: space-between;
 }
-header {
+/* header {
     background-color: rgba(62, 60, 60, 0.1);
     height: 4em;
     width: 100%;
-    /* display: grid;
+} */
+.photograph-head {
+    text-decoration: none;
+	background-color: var(--header-background-color);
+	height: 5rem;
+    width: 100%;
+	margin: 0;
+	text-align: center;
+	font-size: 2rem;
+	font-family: comfortaa, sans-serif;
+	color: var(--headline-color-on-white);
+    border-bottom: 1px solid white;
+    border: #969595 1px solid;
+
+    display: grid;
     grid-template-columns: minmax(50px, 10%) minmax(400px, 70%);
-    justify-content: space-between; */
+    justify-content: space-between;
+}
+nav.siter {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(50px, 10%) minmax(400px, 70%);
+    justify-content: space-around;
+}
+.photograph-foot {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    background-color: var(--header-background-color);
+}
+
+.photograph-head {
+    color: var(--headline-color-on-color);
+    text-align: right;
+    align-items: center;
+}
+img[alt="heading logo"] {
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 70px;
+}
+.photograph-head nav {
+    margin-right: 15px;
+}
+.photograph-head nav a {
+    color: var(--headline-color-on-color);
+    text-decoration: none;
+    font-size: 17px;
+}
+.photograph-head a:hover {
+    color: var(--other-color);
+    text-decoration: none;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+.copyright, .socials {
+    width: 200px;
+    height: 80%;
+    margin: 5px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: var(--other-color);
+}
+.anchorage {
+    width: 50px;
+    color: #ff0000;
+    text-decoration: none;
 }
 .colored {
     position: absolute;
@@ -94,7 +163,7 @@ header {
 }
 #home {
     display: grid;
-    grid-template-columns: repeat(4, minmax(auto, 120px));
+    grid-template-columns: repeat(5, minmax(auto, 90px));
     justify-content: space-around;
     text-align: right;
     height: 100%;
@@ -109,13 +178,13 @@ header {
     padding: 5px;
 }
 #home a {
-    color: #fff;
-    font-size: 15px;
+    color: #ffffff;
+    font-size: 16px;
     text-decoration: none;
     text-align: center;
     height: 100%;
     max-width: 120px;
-    background-color: rgba(82, 83, 83, 0.2);
+    background-color: rgba(82, 83, 83, 0);
     border-radius: 10px;
     line-height: 60px;
 }
@@ -126,7 +195,7 @@ img[alt="Club Logo"] {
 }
 .gallery {
     width: 100%;
-    height: 100vh;
+    height: 91vh;
     display: grid;
     background-color: var(--hover-color);
     grid-template-columns: 1fr 3fr;
@@ -166,7 +235,7 @@ img[alt="Club Logo"] {
     margin: 10px;
 }
 .fixed-left h3 {
-    color: brown;
+    color: rgb(255, 0, 0);
 }
 .fixed-left h3::before {
     content: "⇓ ";
@@ -189,4 +258,103 @@ img[alt="Club Logo"] {
     margin-bottom: 7px;
     font-family: var(--paragraph-font);
     color: var(--nav-hover-link-color);
+}
+/* --------form style-------- */
+form {
+	background-color: var(--headline-color-on-color);
+	padding: 1rem;
+	border-radius: 6px;
+}
+fieldset {
+	margin: 2rem 0;
+	border: none;
+	/* border-radius: 6px; */
+	padding: .5rem 2%;
+}
+.ws1 legend {
+	color: #445ba9;
+	padding: 0 .5rem;
+}
+.ws1 label {
+	display: block;
+	padding-top: 1rem;
+	font-size: .9rem;
+}
+input[type="text"], button[type="submit"], #product, [type="date"]{
+	background-color: var(--headline-color-on-color);
+	display: block;
+	border: 1px solid #999;
+	border-radius: 6px;
+	padding: .75rem;
+	width: 100%;
+	max-width: 600px;
+}
+input[name="fname"], input[name="lname"], input[name="email"], input[name="school"], input[name="age"] {
+	border-left: 6px solid var(--red-on-black);
+}
+button[type="submit"] {
+	width: 96%;
+	margin: 0 auto;
+	background-color: var(--red-on-black);
+	color: var(--headline-color-on-color);
+	font-size: larger;
+	font-family: Barlow, sans-serif;
+}
+input[type="textarea"] {
+	height: 70px;
+	width: 100%;
+	font-size: larger;
+}
+input[type="checkbox"] {
+	margin-right: 3px;
+}
+form p {
+	font-style: italic;
+}
+form p {
+	margin: -7px 0 10px 0;
+}
+.feature label{
+    margin-left: 8px;
+}
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-size: xx-large;
+}
+.form-body {
+	height: auto;
+	display: flex;
+	flex-direction: column ;
+	place-items: center;
+	justify-content: center;
+	font-family: Roboto, sans-serif;
+	font-size: large;
+	margin: 0;
+	padding: 10px;
+	background-color: rgb(128, 123, 123);
+}
+form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-type(5) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* -------Acknowledgement styling-------- */
+#record {
+    background-color: rgb(30, 29, 29);
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 600px;
+    margin: 25vh auto;
+    height: 15rem;
+    padding: 0;
+}
+#record h1 {
+    text-align: center;
+    padding-top: 75px;
+}
+.acknow {
+    height: 50vh;
 }
