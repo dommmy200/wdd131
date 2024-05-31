@@ -398,3 +398,50 @@ section h2 {
     text-align: center;
     color: var(--other-color);
 }
+/* --------Events Styling------- */
+#events {
+    display: grid;
+    height: 75vh;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "one two ."
+    ". five six"
+    ". eight .";
+}
+#events section:first-of-type {
+    grid-area: one;
+    background-color: #ff0000;
+    border-radius: 7px;
+    margin: 3px;
+    padding: 5px;
+}
+#events section:nth-of-type(2) {
+    grid-area: two;
+    background-color: #090808;
+    color: #ffffff;
+}
+#events section:nth-of-type(2) h1 { color: #ff0000;}
+#events section:nth-of-type(3) {
+    grid-area: five;
+    background-color: #d17b7b;
+}
+#events section:nth-of-type(4) {
+    grid-area: six;
+    background-color: #d6baba;
+}
+#events section:last-of-type {
+    grid-area: eight;
+    background-color: #c1b3b3;
+}
+#events section:first-of-type, #events section:last-of-type, #events section:nth-of-type(2),
+#events section:nth-of-type(3), #events section:nth-of-type(4) {
+    border-radius: 7px;
+    margin: 3px;
+    padding: 8px;
+}
+#events section:first-of-type h1, #events section:last-of-type h1, #events section:nth-of-type(2) h1,
+#events section:nth-of-type(3) h1, #events section:nth-of-type(4) h1 {
+    text-align: center;
+}
