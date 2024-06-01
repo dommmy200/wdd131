@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..//styles/photography.css">
     <script src="../scripts/photography.js" defer></script>
+    <script src="../scripts/weather-lagos.js" defer></script>
     <title>About Us</title>
 </head>
 <body>
@@ -18,8 +19,51 @@
             <a href="./attribution.html">Reference/Attribution</a>
         </nav>
     </header>
-    <main>
-
+    <main id="contact-us">
+        <section>
+            <div>
+                <h1>👇🏾  Location</h1>
+                <h3>13 Olawale Adegboyega Street. Onipetesi Estate, Mangoro-Ikeja, Lagos.</h3>
+                <h4><span>Zip:</span>100211</h4>
+                <h4>Tel: <span>(234)8133133532</span></h4>
+                <h4>Email: <span>constantx003@gmail.com</span></h4>
+            </div>
+            <hr>
+            <div>
+                <form method="get" action="acknowledgement.html" class="wf1">
+                    <h1>Contact Form</h1>
+                    <p>(Scroll Down to Submit!)</p>
+                    <fieldset>
+                        <label>First Name: <input type="text" name="fname" id="fname" required></label>
+                        <label>Last Name: <input type="text" name="lname" id="fname" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Contact</legend>
+                        <label>Email: <input type="email" name="email" id="email" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Enquiries*</legend>
+                        <label for="review"></label>
+                        <textarea name="textarea" id="review" rows="8" cols="auto" placeholder="Enter text here..." required></textarea>
+                    </fieldset>
+                    <button id="button" type="submit" value="product_review">Get Info!</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d253656.4653920004!2d3.3288193500000003!3d6.5993237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1717228018375!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                <h1>Location Map</h1>
+            </iframe>
+            <hr>
+            <div class="weather1">
+                <h1>Weather</h1>
+                <p>The current temperature in Lagos is <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" >
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </section>
     </main>
     <footer class="photograph-foot">
         <div class="copyright">&COPY;2024</div>
