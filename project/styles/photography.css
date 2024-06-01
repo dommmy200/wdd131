@@ -80,8 +80,6 @@ nav.siter {
 	font-size: 2rem;
 	font-family: comfortaa, sans-serif;
 	color: var(--headline-color-on-white);
-    /* border-bottom: 1px solid white; */
-    /* border: #969595 1px solid; */
 
     display: grid;
     grid-template-columns: minmax(50px, 10%) minmax(400px, 70%);
@@ -89,13 +87,9 @@ nav.siter {
     justify-content: space-between;
 }
 .photograph-head nav {
-    /* margin: 0; */
-    /* padding-right: 20px; */
     grid-column: 2/3;
     grid-row: 1/2;
-    /* background-color: #ffffff; */
     position: relative;
-    /* height: 100%; */
 }
 img[alt="heading logo"] {
     grid-column: 1/2;
@@ -109,7 +103,6 @@ img[alt="heading logo"] {
     list-style: none;
     margin: 0;
     padding: 0;
-    /* background-color: #3c2e2e; */
     position: absolute;
     top: 0;
 }
@@ -117,7 +110,6 @@ img[alt="heading logo"] {
     width: 100%;
     margin: 0;
     padding: 0;
-    /* background-color: #d90c0c; */
 }
 .photograph-head nav a {
     color: var(--headline-color-on-color);
@@ -195,7 +187,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     height: 100%;
-    max-width: 120px;
+    
     background-color: rgba(82, 83, 83, 0);
     border-radius: 10px;
     line-height: 60px;
@@ -374,6 +366,25 @@ form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-t
     text-align: center;
     padding-top: 75px;
 }
+.acknow {
+    height: 75vh;
+    width: 80%;
+    background-color: var(--transparent-bg-color-5);
+    margin: 10px auto;
+    border-radius: 6px;
+    padding: 15px;
+    overflow-y: auto;
+}
+.acknow nav a {
+    color: #6a0303;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    row-gap: 10px;
+    /* max-width: 120px; */
+
+}
 /* ---------Photography Styling--------- */
 #links-targets {
     width: 100%;
@@ -465,7 +476,7 @@ section h2 {
 #memberships {
     display: grid;
     gap: 10px;
-    grid-template-columns: 300px 300px auto;
+    grid-template-columns: minmax(30%, 300px)  minmax(30%, 300px) auto;
     grid-template-rows: auto;
     padding: 5px;
 }
@@ -504,7 +515,7 @@ section h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 74vh;
+    height: 75vh;
 }
 #links-div {
     flex: 0 0 auto;

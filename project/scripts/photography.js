@@ -4,6 +4,7 @@ async function getMembersFile() {
     const data = await response.json();
     selectMember(data.members);
     displayMembersWork(data.members);
+    clubMembers(data.members);
 }
 const section = document.querySelector("#populate-image");
 const displayMembersWork = (data) => {
@@ -96,6 +97,20 @@ const rulesAndRegulations = function (){
                 console.error("Section not found:", elementId);
             }
         })
+    })
+}
+const membersName = document.querySelector(".our-members");
+const membersSchool = document.querySelector(".our-schools");
+const clubMembers = (members) => {
+    members.forEach(member => {
+        const name = `${member.fname} ${member.lname}`;
+        const school = `${member.institution}`;
+        const li1 = document.createElement("li");
+        const li2 = document.createElement("li");
+        li1.textContent = name;
+        li2.textContent = school;
+        membersName.append(li1);
+        membersSchool.append(li2);
     })
 }
 
