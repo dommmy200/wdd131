@@ -4,7 +4,11 @@ async function getMembersFile() {
     const data = await response.json();
     selectMember(data.members);
     displayMembersWork(data.members);
-    clubMembers(data.members);
+}
+async function getNameAndSch() {
+    const response = await fetch(membersFiles);
+    const data = await response.json();
+    getClubMembers(data.members);
 }
 const section = document.querySelector("#populate-image");
 const displayMembersWork = (data) => {
@@ -79,7 +83,7 @@ const learningSections = function (){
             console.error("Section not found:", elementId);
             }
         });
-    })
+    });
 }
 const rulesAndRegulations = function (){
     const navAnchor = document.querySelectorAll("#links-div a");
@@ -96,12 +100,12 @@ const rulesAndRegulations = function (){
             } else {
                 console.error("Section not found:", elementId);
             }
-        })
-    })
+        });
+    });
 }
-const membersName = document.querySelector(".our-members");
-const membersSchool = document.querySelector(".our-schools");
-const clubMembers = (members) => {
+const membersName = document.getElementById("our-members");
+const membersSchool = document.getElementById("our-schools");
+const getClubMembers = (members) => {
     members.forEach(member => {
         const name = `${member.fname} ${member.lname}`;
         const school = `${member.institution}`;
@@ -109,12 +113,13 @@ const clubMembers = (members) => {
         const li2 = document.createElement("li");
         li1.textContent = name;
         li2.textContent = school;
-        membersName.append(li1);
-        membersSchool.append(li2);
-    })
+        membersName.appendChild(li1);
+        membersSchool.appendChild(li2);
+    });
 }
 
 learningSections();
 rulesAndRegulations();
 footDiv();
 getMembersFile();
+getNameAndSch();
