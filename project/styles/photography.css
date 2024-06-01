@@ -212,7 +212,7 @@ img[alt="Club Logo"] {
     
 }
 #populate-image {
-    height: 95%;
+    min-height: 95%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     background-color: #969595;
