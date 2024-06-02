@@ -347,7 +347,7 @@ form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-t
     flex-direction: column;
     gap: 10px;
 }
-/* -------Acknowledgement And Social Media Styling-------- */
+/* -------Acknowledgement, Attribution And Social Media Styling-------- */
 #record {
     background-color: rgb(30, 29, 29);
     border: 2px solid grey;
@@ -374,7 +374,7 @@ form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-t
 .acknow {
     height: 75vh;
     width: 80%;
-    background-color: var(--transparent-bg-color-5);
+    background-color: var(--header-background-color);
     margin: 10px auto;
     border-radius: 6px;
     padding: 15px;
