@@ -142,11 +142,11 @@ img[alt="heading logo"] {
     text-align: center;
     padding: 15px;
     font-size: 20px;
-    color: var(--other-color);
+    color: var(--headline-color-on-color);
 }
 .anchorage {
     width: 50px;
-    color: var(--other-color);
+    color: var(--headline-color-on-color);
     text-decoration: none;
 }
 .colored {
@@ -168,7 +168,8 @@ img[alt="heading logo"] {
     right: 20%;
     font-size: 30px;
     color: var(--headline-color-on-color);
-    background-color: var(--transparent-bg-color-4);
+    background-color: var(--header-background-color);
+    padding: 3px;
 }
 #home ul{
     display: grid;
@@ -243,7 +244,7 @@ img[alt="Club Logo"] {
     margin: 10px;
 }
 .fixed-left h3 {
-    color: var(--other-color);
+    color: var(--nav-hover-link-color);
 }
 .fixed-left h3::before {
     content: "⇓ ";
@@ -302,7 +303,7 @@ input[name="fname"], input[name="lname"], input[name="email"], input[name="schoo
 button[type="submit"] {
 	width: 96%;
 	margin: 0 auto;
-	background-color: var(--red-on-black);
+	background-color: var(--headline-color-on-white);
 	color: var(--headline-color-on-color);
 	font-size: larger;
 	font-family: Barlow, sans-serif;
@@ -381,7 +382,7 @@ form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-t
     overflow-y: auto;
 }
 .acknow nav a {
-    color: var(--red-on-black);
+    color: var(--headline-color-on-color);
     display: block;
     width: 100%;
     text-align: left;
@@ -428,7 +429,7 @@ section ul {
 }
 section h2 {
     text-align: center;
-    color: var(--other-color);
+    color: var(--headline-color-on-color);
 }
 /* --------Events Styling------- */
 #events {
@@ -444,7 +445,7 @@ section h2 {
 }
 #events section:first-of-type {
     grid-area: one;
-    background-color: #ff0000;
+    background-color: #d8c4c4;
     border-radius: 7px;
     margin: 3px;
     padding: 5px;
@@ -457,11 +458,11 @@ section h2 {
 #events section:nth-of-type(2) h1 { color: #ff0000;}
 #events section:nth-of-type(3) {
     grid-area: five;
-    background-color: #d17b7b;
+    background-color: #d1b8b8;
 }
 #events section:nth-of-type(4) {
     grid-area: six;
-    background-color: #d6baba;
+    background-color: #e5dbdb;
 }
 #events section:last-of-type {
     grid-area: eight;
@@ -501,7 +502,7 @@ section h2 {
 #club-members, #participation, #rules-regulations {
     grid-row: auto;
     border-radius: 6px;
-    background-color: #a75a5a;
+    background-color: #d4c8c8;
     padding: 7px;
 }
 #club-members h1, #participation h1, #rules-regulations h1 {
@@ -531,7 +532,7 @@ section h2 {
     flex: 0 0 auto;
     overflow: hidden;
     border: 2px solid#090808 ;
-    background-color: var(--transparent-bg-color-5);
+    background-color: var(--headline-color-on-color);
     padding: 7px;
     font-size: 20px;
     text-align: left;
@@ -542,7 +543,7 @@ section h2 {
     height: 56vh;
     overflow-y: scroll;
     border: 2px solid#090808 ;
-    background-color: var(--transparent-bg-color-5);
+    background-color: var(--headline-color-on-color);
     padding: 10px;
 }
 /* -------Contact Us Styling-------- */
@@ -615,7 +616,7 @@ hr {
     padding: 7px;
 }
 p span {
-    color: #6a0303;
+    color: var(--header-background-color);
     font-style: italic;
 }
 /* --------Hamburger Menu-------- */
