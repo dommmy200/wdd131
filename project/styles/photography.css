@@ -176,7 +176,6 @@ img[alt="heading logo"] {
     justify-content: space-around;
     text-align: right;
     height: 100%; 
-    /* background-color: rgba(82, 83, 83, 0.2); */
     
 }
 .logo {
@@ -369,7 +368,8 @@ form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-t
 }
 #record h1 {
     text-align: center;
-    padding-top: 75px;
+    padding: 10px;
+    margin: 0;
 }
 .acknow {
     height: 75vh;
@@ -381,12 +381,13 @@ form[method="get"] fieldset:nth-of-type(2), form[method="get"] fieldset:nth-of-t
     overflow-y: auto;
 }
 .acknow nav a {
-    color: #6a0303;
+    color: var(--red-on-black);
     display: block;
     width: 100%;
     text-align: left;
     padding-left: 20px;
     row-gap: 10px;
+    font-size: xx-large;
 
 }
 /* ---------Photography Styling--------- */
